@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ChrisNetEngineer Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website showcasing professional experience, certifications, academic background, and project work. Built with cutting-edge web technologies and designed for optimal performance and user experience.
 
-First, run the development server:
+## 🎯 Overview
 
+This portfolio website serves as a comprehensive professional profile for ChrisNetEngineer, a Cybersecurity & Infrastructure Engineer. It features:
+
+- **Hero Section** - Eye-catching introduction with animated typography
+- **Featured Projects** - Showcase of latest work and creative solutions
+- **About Section** - Professional summary and core technical skills
+- **Experience** - Detailed work history with key responsibilities
+- **Academic Background** - Educational qualifications with GPA information
+- **Certifications** - Industry-recognized credentials with official badges
+- **Contact Section** - Easy ways to connect and collaborate
+
+## 🛠️ Tech Stack
+
+### Frontend Framework & UI
+- **[Next.js](https://nextjs.org)** (v16.1.6) - React framework with App Router for production-grade applications
+- **[React](https://react.dev)** (v19.2.3) - JavaScript library for building interactive user interfaces
+- **[TypeScript](https://www.typescriptlang.org)** (v5) - Type-safe JavaScript for robust development
+
+### Styling & Design
+- **[Tailwind CSS](https://tailwindcss.com)** (v4) - Utility-first CSS framework for rapid UI development
+- **[PostCSS](https://postcss.org)** - Tool for transforming CSS
+
+### Animations & Interactions
+- **[Framer Motion](https://www.framer.com/motion)** (v12.34.3) - Production-ready React animation library for smooth, engaging interactions
+
+### Developer Tools
+- **[ESLint](https://eslint.org)** (v9) - JavaScript linter for code quality
+- **[Babel Plugin React Compiler](https://react.dev/learn/react-compiler)** - Automated React optimization
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm/yarn installed
+
+### Installation & Development
+
+Clone the repository and install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The site supports hot-reload - edit files in `src/` and changes appear instantly.
 
-## Learn More
+### Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm start        # Start production server
+npm run lint     # Run ESLint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Key Features
 
-## Deploy on Vercel
+- **Responsive Design** - Optimized for all device sizes (mobile, tablet, desktop)
+- **Dark Mode Support** - Built-in dark/light theme switching
+- **Smooth Animations** - Framer Motion-powered interactions for engaging UX
+- **Performance Optimized** - Next.js optimization for fast load times
+- **Type Safe** - Full TypeScript support for reliability
+- **SEO Friendly** - Metadata and semantic HTML for search engines
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design Highlights
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Modern gradient backgrounds and glassmorphism effects
+- Smooth page transitions and scroll animations
+- Accessibility-first component design
+- Consistent color scheme (blue/indigo/purple palette)
+- Mobile-first responsive approach
+
+
+## 📝 License
+
+This project is open source and available for viewing and inspiration.
