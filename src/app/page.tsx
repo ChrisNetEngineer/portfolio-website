@@ -11,10 +11,10 @@ export default function Home() {
       company: "Singapore Armed Forces",
       period: "2024 - 2026",
       summary:
-        "A CBRE Engineer under 39SEC specializes in the threat detection, mitigation, and neutralisation of Chemical, Biological, Radiological, and Explosive threats across mainland Singapore",
+        "A CBRE Engineer under 39SCE specializes in the threat detection, mitigation, and neutralisation of Chemical, Biological, Radiological, and Explosive threats across mainland Singapore",
     },
     {
-      role: "Cybersecurity Engineer",
+      role: "Network Security Engineer",
       company: "Hummingbird Bioscience",
       period: "2024",
       summary:
