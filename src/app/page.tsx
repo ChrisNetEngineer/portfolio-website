@@ -69,7 +69,7 @@ export default function Home() {
       name: "Certified Ethical Hacker (CEH)",
       issuer: "EC-Council",
       year: "2020",
-      badge: "/badges/CEH.png",
+      badge: "/badges/CEH.jpg",
       description: "Validates the ability to identify vulnerabilities and threats in systems and networks, and apply appropriate countermeasures.",
     },  
     {
