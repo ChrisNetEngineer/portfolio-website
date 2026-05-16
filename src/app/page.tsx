@@ -79,6 +79,20 @@ export default function Home() {
       badge: "/badges/CSCU.png",
       description: "Validates the knowledge and skills of end-users to protect their information assets from cyber threats and attacks, including safe internet usage, email security, social engineering, and data protection.",
     },
+    {
+      name: "Certified Ethical Hacker (CEH)",
+      issuer: "EC-Council",
+      year: "2020",
+      badge: "/badges/CEH.jpg",
+      description: "Validates the ability to identify vulnerabilities and threats in systems and networks, and apply appropriate countermeasures.",
+    },  
+    {
+      name: "Certified Secure Computer User (CSCU)",
+      issuer: "EC-Council",
+      year: "2020",
+      badge: "/badges/CSCU.png",
+      description: "Validates the knowledge and skills of end-users to protect their information assets from cyber threats and attacks, including safe internet usage, email security, social engineering, and data protection.",
+    },
   ];
 
   const academics = [

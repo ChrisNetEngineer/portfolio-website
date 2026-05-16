@@ -16,11 +16,12 @@ export default function AnimatedSection({
 }: AnimatedSectionProps) {
   return (
     <motion.div
-      className={className}
+      className={className + " w-full"}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.15 }}
+      style={{ willChange: "transform, opacity" }}
     >
       {children}
     </motion.div>
