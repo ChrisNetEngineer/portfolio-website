@@ -135,8 +135,8 @@ export default function Home() {
                 index={0}
               />
               <ProjectCard
-                title="Project Two"
-                description="Another interesting project with React and Tailwind showcasing advanced web development techniques."
+                title="LinkNET - Priviledge Access Management System"
+                description="Control and monitor access to critical systems and data, ensuring that only authorized users have the necessary permissions to perform their tasks while maintaining a secure and compliant environment"
                 url="#"
                 index={1}
               />
