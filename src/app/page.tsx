@@ -3,6 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import AnimatedSection from "../components/AnimatedSection";
 import Image from "next/image";
 import project1 from "../../image/project1.png";
+import project2 from "../../image/project2.png";
 
 export default function Home() {
   const experiences = [
@@ -138,6 +139,7 @@ export default function Home() {
                 title="LinkNET - Priviledge Access Management System"
                 description="Control and monitor access to critical systems and data, ensuring that only authorized users have the necessary permissions to perform their tasks while maintaining a secure and compliant environment"
                 url="#"
+                image={project2.src}
                 index={1}
               />
             </div>
