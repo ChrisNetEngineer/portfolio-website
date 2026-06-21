@@ -31,7 +31,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Cybersecurity & Infrastructure Engineer
+          Cybersecurity & Cloud Security Engineer
         </motion.p>
         <motion.p
           className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-xs sm:max-w-md md:max-w-2xl px-4 mb-8"
