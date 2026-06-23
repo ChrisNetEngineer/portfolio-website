@@ -50,13 +50,15 @@ export default function Home() {
       issuer: "CompTIA",
       year: "2024",
       badge: "/badges/security_plus.png",
+      url: "https://www.credly.com/badges/cbb746dd-970d-4f95-bea9-00f174d91476/public_url",
       description: "Advanced expetise to perform core security functions required of any cybersecurity role.",
     },
     {
       name: "ISO/IEC 27701:2025 Lead Auditor",
       issuer: "Mastermind Assurance",
       year: "2026",
-      badge: "/badges/iso-27001.png",
+      badge: "/badges/iso-27701.png",
+      url: "https://www.credly.com/badges/9ecc7ab5-bea3-4fc5-ad11-1f9a25655c7a/public_url",
       description: "Advanced expertise in assessing privacy information management (PIMS) for handling personal data and GDPR-like compliance",
     },
     {
@@ -64,6 +66,7 @@ export default function Home() {
       issuer: "Mastermind Assurance",
       year: "2026",
       badge: "/badges/iso-42001.png",
+      url: "https://www.credly.com/badges/a4f0c681-09b6-47e8-b1cc-acc17e2c235f/public_url",
       description: "Advanced expertise in assessing artificial intelligence management system (AIMS) scopes",
     },
     {
@@ -71,6 +74,7 @@ export default function Home() {
       issuer: "Mastermind Assurance",
       year: "2026",
       badge: "/badges/iso-27001.png",
+      url: "https://www.credly.com/badges/50e0a0b5-3ca4-4dd6-8583-175a4879b892/public_url",
       description: "Advanced expertise in assessing information security management system (ISMS) scopes",
     },
     {
@@ -78,6 +82,7 @@ export default function Home() {
       issuer: "EC-Council",
       year: "2020",
       badge: "/badges/CEH.jpg",
+      url: "https://github.com/ChrisNetEngineer/PortfolioStorage/blob/main/ECC-CEH-Certificate.pdf",
       description: "Validates the ability to identify vulnerabilities and threats in systems and networks, and apply appropriate countermeasures.",
     },  
     {
@@ -85,6 +90,7 @@ export default function Home() {
       issuer: "EC-Council",
       year: "2020",
       badge: "/badges/CSCU.png",
+      url: "https://github.com/ChrisNetEngineer/PortfolioStorage/blob/main/ECC-CSCU-Certificate.pdf",
       description: "Validates the knowledge and skills of end-users to protect their information assets from cyber threats and attacks, including safe internet usage, email security, social engineering, and data protection.",
     },
     {
@@ -92,18 +98,20 @@ export default function Home() {
       issuer: "Cisco",
       year: "2023",
       badge: "/badges/ccna.png",
+      url: "https://www.credly.com/badges/7af578ba-fbd6-4a1a-b13e-675e5dd695a3/public_url",
       description: "Demonstrated knowledge and skills related to network fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation and programmability",
     },  
     {
-      name: "Certified Secure Computer User (CSCU)",
-      issuer: "EC-Council",
-      year: "2020",
-      badge: "/badges/CSCU.png",
-      description: "Validates the knowledge and skills of end-users to protect their information assets from cyber threats and attacks, including safe internet usage, email security, social engineering, and data protection.",
+      name: "AWS Certified Security Specialty",
+      issuer: "Amazon Web Services",
+      year: "TBC",
+      badge: "/badges/aws-security-specialty.png",
+      url: "",
+      description: "Advanced expertise in designing and implementing security solutions for AWS environments",
     },
   ];
 
-  const academics = [
+  const academics = [   
     {
       program: "Bachelor of Science with Honours in Cybersecurity",
       school: "Coventry University (UK)",
@@ -378,9 +386,12 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 sm:gap-6">
               {certifications.map((cert, idx) => (
-                <article
+                <a
                   key={idx}
-                  className="bg-white/90 dark:bg-slate-800/90 backdrop-blur rounded-2xl p-6 sm:p-7 border border-blue-100 dark:border-slate-700 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group bg-white/90 dark:bg-slate-800/90 backdrop-blur rounded-2xl p-6 sm:p-7 border border-blue-100 dark:border-slate-700 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col cursor-pointer"
                 >
                   <div className="mb-5 rounded-xl border border-blue-100 dark:border-slate-700 bg-slate-50 dark:bg-slate-900/50 h-40 sm:h-44 p-4 relative">
                     <Image
@@ -404,7 +415,13 @@ export default function Home() {
                   <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed flex-1">
                     {cert.description}
                   </p>
-                </article>
+                  <p className="mt-4 flex items-center gap-1 text-sm font-semibold text-blue-600 dark:text-blue-400 group-hover:gap-2 transition-all duration-300">
+                    <span>View credential</span>
+                    <svg className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </p>
+                </a>
               ))}
             </div>
           </div>
