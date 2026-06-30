@@ -210,7 +210,7 @@ export default function Home() {
                     Cybersecurity & Cloud Security Engineer
                   </span>
                   <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                    I&apos;m a Cybersecurity Engineer with strong interests in AWS Cloud Security, Privileged Access Management (PAM), Incident Response, and Vulnerability Management. Committed to continuous learning, I aim to deepen my expertise through professional certifications and a Master&apos;s degree while building a long-term career in Singapore&apos;s Fintech and cybersecurity industry.
+                    I&apos;m a Cybersecurity Engineer with strong interests in AWS Cloud Security, Privileged Access Management (PAM), Incident Response, and Vulnerability Management. Committed to continuous learning, I aim to deepen my expertise through professional certifications and a Bachelor&apos;s degree while building a long-term career in Singapore&apos;s Fintech and cybersecurity industry.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 pt-2">
                     {highlights.map((item, idx) => (
