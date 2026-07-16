@@ -15,11 +15,11 @@ export default function Home() {
         "Responsible for the design, implementation, and maintenance of the organization's cybersecurity solutions and policies",
     },
     {
-      role: "CBRD Engineer",
+      role: "CBRD Combat Engineer",
       company: "Singapore Armed Forces",
       period: "2024 - 2026",
       summary:
-        "A CBRE Engineer under 39SCE specializes in the threat detection, mitigation, and neutralisation of Chemical, Biological, Radiological, and Explosive threats across mainland Singapore",
+        "A CBRD Combat Engineer under 39SCE specializes in the threat detection, mitigation, and neutralisation of Chemical, Biological, Radiological, and Explosive threats across mainland Singapore",
     },
     {
       role: "Cybersecurity Engineer",
@@ -36,11 +36,11 @@ export default function Home() {
         "Conducted vulnerability management program, SIEM dashboard creation, NIDS tuning, IT services management(Etc. DHCP, DNS), design Tier-2 network for enterprise network implementation",
     },
     {
-      role: "Cybersecurity Analyst",
+      role: "Cybersecurity Engineer",
       company: "Insightz Technology",
       period: "2020 - 2021",
       summary:
-        "Served as a Level 1 cybersecurity analyst, SIEM and EDR platform management, logs automation using scripting languages and onsite support for EDR implementation",
+        "Handled SIEM and EDR platform management, logs automation using scripting languages and onsite support for air-gapped data center EDR implementation",
     },
   ];
 
